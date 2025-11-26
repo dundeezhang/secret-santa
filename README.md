@@ -1,6 +1,6 @@
 Secret santa matching tool.
 
-1. Add in your info into the .env
+1. Add in your info into the .env (need Resend API key and domain. Resend is free)
 2. Make the file names.txt
 
 3. Enter names and email in names.txt like:
