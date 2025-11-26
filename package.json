@@ -1,0 +1,27 @@
+{
+  "name": "secret-santa-matcher",
+  "version": "1.0.0",
+  "description": "A Secret Santa matching application that generates gift exchange pairings and sends email notifications via Resend",
+  "main": "secretSanta.js",
+  "scripts": {
+    "start": "node secretSanta.js",
+    "verify": "node verify.js",
+    "test": "node secretSanta.js && node verify.js",
+    "preview": "node previewEmail.js"
+  },
+  "keywords": [
+    "secret-santa",
+    "gift-exchange",
+    "matching",
+    "holiday"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "resend": "^6.5.2"
+  }
+}

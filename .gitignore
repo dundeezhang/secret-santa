@@ -1,0 +1,26 @@
+# Name files
+names.txt
+
+# Output files
+output.txt
+email-preview.html
+
+# Node modules
+node_modules/
+
+# Environment variables
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+npm-debug.log*
