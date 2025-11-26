@@ -72,7 +72,7 @@ async function sendSecretSantaEmail(santa, receiver, fromEmail) {
     const { data, error } = await resend.emails.send({
       from: fromEmail,
       to: santa.email,
-      subject: "Group Secret Santa Assignment",
+      subject: "Group Secret Santa",
       html: htmlContent,
       text: textContent,
     });
