@@ -47,8 +47,8 @@ function getTextFromHtml(html) {
  * Useful for testing the email template without sending
  */
 function generateEmailPreview() {
-  const santa = { name: "Alice", email: "alice@example.com" };
-  const receiver = { name: "Bob", email: "bob@example.com" };
+  const santa = { name: "Dundee", email: "dundee@example.com" };
+  const receiver = { name: "John", email: "john@example.com" };
 
   const html = getEmailTemplate(santa.name, receiver.name);
   const text = getTextFromHtml(html);
